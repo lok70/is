@@ -1,0 +1,704 @@
+{
+  "rules": [
+    {
+      "id": "R001",
+      "conditions": ["F001", "F011"],
+      "conclusion": "F046"
+    },
+    {
+      "id": "R002",
+      "conditions": ["F002", "F011"],
+      "conclusion": "F046"
+    },
+    {
+      "id": "R003",
+      "conditions": ["F003", "F011"],
+      "conclusion": "F046"
+    },
+    {
+      "id": "R004",
+      "conditions": ["F001", "F012"],
+      "conclusion": "F047"
+    },
+    {
+      "id": "R005",
+      "conditions": ["F003", "F012"],
+      "conclusion": "F047"
+    },
+    {
+      "id": "R006",
+      "conditions": ["F004", "F007"],
+      "conclusion": "F046"
+    },
+    {
+      "id": "R007",
+      "conditions": ["F004", "F009"],
+      "conclusion": "F046"
+    },
+    {
+      "id": "R008",
+      "conditions": ["F007", "F011"],
+      "conclusion": "F046"
+    },
+    {
+      "id": "R009",
+      "conditions": ["F007", "F012"],
+      "conclusion": "F047"
+    },
+    {
+      "id": "R010",
+      "conditions": ["F008", "F011"],
+      "conclusion": "F046"
+    },
+    {
+      "id": "R011",
+      "conditions": ["F008", "F012"],
+      "conclusion": "F047"
+    },
+    {
+      "id": "R012",
+      "conditions": ["F004", "F006"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R013",
+      "conditions": ["F007", "F031"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R014",
+      "conditions": ["F008", "F031"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R015",
+      "conditions": ["F009", "F033"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R016",
+      "conditions": ["F010", "F033"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R017",
+      "conditions": ["F004", "F035"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R018",
+      "conditions": ["F007", "F035"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R019",
+      "conditions": ["F004", "F030"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R020",
+      "conditions": ["F007", "F030"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R021",
+      "conditions": ["F046", "F013"],
+      "conclusion": "F048"
+    },
+    {
+      "id": "R022",
+      "conditions": ["F046", "F014"],
+      "conclusion": "F049"
+    },
+    {
+      "id": "R023",
+      "conditions": ["F046", "F015"],
+      "conclusion": "F051"
+    },
+    {
+      "id": "R024",
+      "conditions": ["F046", "F016"],
+      "conclusion": "F050"
+    },
+    {
+      "id": "R025",
+      "conditions": ["F046", "F017"],
+      "conclusion": "F050"
+    },
+    {
+      "id": "R026",
+      "conditions": ["F046", "F018"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R027",
+      "conditions": ["F047", "F013"],
+      "conclusion": "F048"
+    },
+    {
+      "id": "R028",
+      "conditions": ["F047", "F014"],
+      "conclusion": "F049"
+    },
+    {
+      "id": "R029",
+      "conditions": ["F047", "F021"],
+      "conclusion": "F051"
+    },
+    {
+      "id": "R030",
+      "conditions": ["F047", "F022"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R031",
+      "conditions": ["F046", "F021"],
+      "conclusion": "F051"
+    },
+    {
+      "id": "R032",
+      "conditions": ["F046", "F022"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R033",
+      "conditions": ["F047", "F015"],
+      "conclusion": "F051"
+    },
+    {
+      "id": "R034",
+      "conditions": ["F047", "F016"],
+      "conclusion": "F050"
+    },
+    {
+      "id": "R035",
+      "conditions": ["F047", "F017"],
+      "conclusion": "F050"
+    },
+    {
+      "id": "R036",
+      "conditions": ["F046", "F041"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R037",
+      "conditions": ["F046", "F040"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R038",
+      "conditions": ["F047", "F039"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R039",
+      "conditions": ["F046", "F039"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R040",
+      "conditions": ["F047", "F041"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R041",
+      "conditions": ["F036", "F029"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R042",
+      "conditions": ["F019", "F029"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R043",
+      "conditions": ["F020", "F029"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R044",
+      "conditions": ["F036", "F031"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R045",
+      "conditions": ["F036", "F035"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R046",
+      "conditions": ["F032", "F029"],
+      "conclusion": "F054"
+    },
+    {
+      "id": "R047",
+      "conditions": ["F032", "F031"],
+      "conclusion": "F054"
+    },
+    {
+      "id": "R048",
+      "conditions": ["F035", "F030"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R049",
+      "conditions": ["F035", "F032"],
+      "conclusion": "F054"
+    },
+    {
+      "id": "R050",
+      "conditions": ["F033", "F029"],
+      "conclusion": "F055"
+    },
+    {
+      "id": "R051",
+      "conditions": ["F033", "F009"],
+      "conclusion": "F055"
+    },
+    {
+      "id": "R052",
+      "conditions": ["F033", "F010"],
+      "conclusion": "F055"
+    },
+    {
+      "id": "R053",
+      "conditions": ["F037", "F033"],
+      "conclusion": "F055"
+    },
+    {
+      "id": "R054",
+      "conditions": ["F038", "F033"],
+      "conclusion": "F055"
+    },
+    {
+      "id": "R055",
+      "conditions": ["F036", "F032"],
+      "conclusion": "F054"
+    },
+    {
+      "id": "R056",
+      "conditions": ["F019", "F032"],
+      "conclusion": "F054"
+    },
+    {
+      "id": "R057",
+      "conditions": ["F020", "F032"],
+      "conclusion": "F054"
+    },
+    {
+      "id": "R058",
+      "conditions": ["F036", "F030"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R059",
+      "conditions": ["F019", "F030"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R060",
+      "conditions": ["F020", "F030"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R061",
+      "conditions": ["F042", "F043"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R062",
+      "conditions": ["F042", "F044"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R063",
+      "conditions": ["F043", "F045"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R064",
+      "conditions": ["F044", "F045"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R065",
+      "conditions": ["F013", "F043"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R066",
+      "conditions": ["F014", "F044"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R067",
+      "conditions": ["F015", "F045"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R068",
+      "conditions": ["F046", "F057"],
+      "conclusion": "F051"
+    },
+    {
+      "id": "R069",
+      "conditions": ["F046", "F057"],
+      "conclusion": "F048"
+    },
+    {
+      "id": "R070",
+      "conditions": ["F046", "F057"],
+      "conclusion": "F049"
+    },
+    {
+      "id": "R071",
+      "conditions": ["F057", "F021"],
+      "conclusion": "F051"
+    },
+    {
+      "id": "R072",
+      "conditions": ["F057", "F022"],
+      "conclusion": "F048"
+    },
+    {
+      "id": "R073",
+      "conditions": ["F057", "F025"],
+      "conclusion": "F048"
+    },
+    {
+      "id": "R074",
+      "conditions": ["F057", "F026"],
+      "conclusion": "F049"
+    },
+    {
+      "id": "R075",
+      "conditions": ["F046", "F051"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R076",
+      "conditions": ["F047", "F051"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R077",
+      "conditions": ["F046", "F048"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R078",
+      "conditions": ["F046", "F049"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R079",
+      "conditions": ["F047", "F048"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R080",
+      "conditions": ["F047", "F049"],
+      "conclusion": "F057"
+    },
+    {
+      "id": "R081",
+      "conditions": ["F040", "F041"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R082",
+      "conditions": ["F040", "F011"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R083",
+      "conditions": ["F041", "F011"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R084",
+      "conditions": ["F040", "F046"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R085",
+      "conditions": ["F041", "F046"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R086",
+      "conditions": ["F039", "F041"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R087",
+      "conditions": ["F039", "F011"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R088",
+      "conditions": ["F039", "F046"],
+      "conclusion": "F056"
+    },
+    {
+      "id": "R089",
+      "conditions": ["F046", "F056"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R090",
+      "conditions": ["F047", "F056"],
+      "conclusion": "F052"
+    },
+    {
+      "id": "R091",
+      "conditions": ["F052", "F056"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R092",
+      "conditions": ["F052", "F053"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R093",
+      "conditions": ["F052", "F054"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R094",
+      "conditions": ["F052", "F055"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R095",
+      "conditions": ["F052", "F057"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R096",
+      "conditions": ["F052", "F051"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R097",
+      "conditions": ["F056", "F011"],
+      "conclusion": "F046"
+    },
+    {
+      "id": "R098",
+      "conditions": ["F056", "F012"],
+      "conclusion": "F047"
+    },
+    {
+      "id": "R099",
+      "conditions": ["F056", "F029"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R100",
+      "conditions": ["F056", "F030"],
+      "conclusion": "F053"
+    },
+    {
+      "id": "R101",
+      "conditions": ["F053"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R102",
+      "conditions": ["F054"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R103",
+      "conditions": ["F055"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R104",
+      "conditions": ["F052"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R105",
+      "conditions": ["F046"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R106",
+      "conditions": ["F053"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R107",
+      "conditions": ["F054"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R108",
+      "conditions": ["F055"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R109",
+      "conditions": ["F052", "F030"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R110",
+      "conditions": ["F053", "F030"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R111",
+      "conditions": ["F054", "F030"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R112",
+      "conditions": ["F055", "F030"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R113",
+      "conditions": ["F056", "F030"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R114",
+      "conditions": ["F046", "F030"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R115",
+      "conditions": ["F047", "F030"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R116",
+      "conditions": ["F029", "F030"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R117",
+      "conditions": ["F029", "F053"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R118",
+      "conditions": ["F029", "F059"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R119",
+      "conditions": ["F053", "F059"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R120",
+      "conditions": ["F059", "F060"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R121",
+      "conditions": ["F048", "F053"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R122",
+      "conditions": ["F048", "F054"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R123",
+      "conditions": ["F048", "F055"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R124",
+      "conditions": ["F048", "F057"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R125",
+      "conditions": ["F049", "F053"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R126",
+      "conditions": ["F049", "F054"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R127",
+      "conditions": ["F049", "F057"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R128",
+      "conditions": ["F050", "F053"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R129",
+      "conditions": ["F050", "F057"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R130",
+      "conditions": ["F051", "F057"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R131",
+      "conditions": ["F046", "F052", "F053"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R132",
+      "conditions": ["F046", "F052", "F054"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R133",
+      "conditions": ["F046", "F052", "F055"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R134",
+      "conditions": ["F047", "F052", "F053"],
+      "conclusion": "F059"
+    },
+    {
+      "id": "R135",
+      "conditions": ["F046", "F057", "F056"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R136",
+      "conditions": ["F047", "F057", "F056"],
+      "conclusion": "F060"
+    },
+    {
+      "id": "R137",
+      "conditions": ["F046", "F052", "F060"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R138",
+      "conditions": ["F047", "F052", "F060"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R139",
+      "conditions": ["F053", "F056", "F059"],
+      "conclusion": "F058"
+    },
+    {
+      "id": "R140",
+      "conditions": ["F054", "F056", "F059"],
+      "conclusion": "F058"
+    }
+  ]
+}
